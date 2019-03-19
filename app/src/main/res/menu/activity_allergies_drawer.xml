@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_medications"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="Current Medications" />
+        <item
+            android:id="@+id/nav_archive"
+            android:icon="@drawable/ic_storage_black_24dp"
+            android:title="Archive"
+            />
+        <item
+            android:id="@+id/nav_allergies"
+            android:icon="@drawable/ic_allergy_black_24dp"
+            android:title="Allergies" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout" />
+    </group>
+
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinner"></Spinner>
+
+    <EditText
+        android:id="@+id/mednametext"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="2dp"
+        android:inputType="text"
+        android:hint="Medication Name"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/dosagetext"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="text"
+        android:hint="Dosage"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/reasontext"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="text"
+        android:hint="Reason"
+        tools:ignore="RtlCompat" />
+
+
+    <EditText
+        android:id="@+id/instructiontext"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="text"
+        android:hint="Instructions"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Period"
+        android:id="@+id/period"/>
+
+    <Button
+        android:id="@+id/startdate"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Start Date"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/submitmedication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:text="Save"/>
+</LinearLayout>
